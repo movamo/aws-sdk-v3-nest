@@ -1,5 +1,7 @@
 {
-  "version": "0.3.0",
+  "name": "@mvmdev/aws-sdk-v3-nest",
+  "author": "Movamo",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -29,11 +31,12 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "aws-sdk-v3-nest",
-  "author": "Movamo",
   "repository": {
     "type": "git",
     "url": "https://github.com/movamo/aws-sdk-v3-nest.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "module": "dist/aws-sdk-v3-nest.esm.js",
   "size-limit": [
@@ -55,6 +58,6 @@
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "@nestjs/common": "^10.2.7"
+    "@nestjs/common": "^10.0.0"
   }
 }
